@@ -22,19 +22,21 @@ export default {
 </script>
 
 <style>
-.todoInput{
+.todoInput {
   display: flex;
   align-items: center;
-  gap:5px;
+  gap: 5px;
   margin-bottom: 10px;
 
 
 }
-.todoInput__input{
-  flex-grow:1;
+
+.todoInput__input {
+  flex-grow: 1;
   height: 20px;
 }
-.todoInput__button{
+
+.todoInput__button {
   margin-left: auto;
   padding: 5px 10px;
   font-weight: bold;
@@ -45,12 +47,12 @@ export default {
   cursor: pointer;
 }
 
-.todoInput__button:hover{
+.todoInput__button:hover {
   color: #FFF;
-  background:green;
+  background: green;
 }
 
-.todoInput__span{
+.todoInput__span {
   font-size: 1.25em;
 }
 

@@ -39,8 +39,10 @@ export default {
       this.todos = this.todos.filter(el => el.id !== todo.id)
     },
     NewItemHandler(value) {
-      const newId = Math.random().toString(36).substr(2, 9)
-      this.todos.push({id: newId, value: value, completed: false})
+      if (value.trim().length > 0) {
+        const newId = Math.random().toString(36).substr(2, 9)
+        this.todos.push({id: newId, value: value.trim(), completed: false})
+      }
     }
   }
 }

@@ -56,9 +56,9 @@ export default {
   cursor: pointer;
 }
 
-.todoItem__button:hover{
+.todoItem__button:hover {
   color: #FFF;
-  background:red;
+  background: red;
 }
 
 </style>
